@@ -11,7 +11,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <Switch>
-        <Route exact path={MAIN_LINK} component={MainPage} />
+        <Route exact path={`${MAIN_LINK}/`} component={MainPage} />
         <Route exact path={`${DETAIL_LINK}/:imdbId`} component={DetailPage} />
       </Switch>
     </BrowserRouter>

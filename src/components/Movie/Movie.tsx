@@ -24,7 +24,7 @@ export const Movie = (props: MovieProps) => {
       }}
       onClick={goToDetailPage}
     >
-      <Card.Img variant="top" src={imgSrc} height='386' />
+      <Card.Img variant="top" src={imgSrc} height='386' alt={`img-${props.Title}`} />
       <Card.Body>
         <Card.Title>
           {props.Title}
